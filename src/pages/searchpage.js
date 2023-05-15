@@ -13,7 +13,7 @@ const SearchPage = () => {
   );
   return (
     <div className="flex flex-col">
-      <Link to={'/'} className="flex justify-center rounded-s-full m-2 lg:w-2/12 xs:w-[20%]  md:w-1/12 lg:text-sm xs:text-xs items-center bg-red-600 p-2 rounded-md text-white "> Go Home</Link>
+      <Link to={'/'} className="flex justify-center rounded-s-full m-2 lg:w-[10%] xs:w-[20%]  md:w-1/12 lg:text-sm xs:text-xs items-center bg-red-600 p-2 rounded-md text-white "> Go Home</Link>
       {filterPokemons.length > 0 ? (
         <div className="m-4">
           <div className="justify-between flex flex-row items-center">
