@@ -13,15 +13,15 @@ const SearchPage = () => {
   );
   return (
     <div className="flex flex-col">
-      <Link to={'/'} className="flex justify-center rounded-s-full m-2 w-2/12 sm:w-2/12 md:w-1/12 text-sm items-center bg-red-600 p-2 rounded-md text-white "> Go Home</Link>
+      <Link to={'/'} className="flex justify-center rounded-s-full m-2 lg:w-2/12 xs:w-[20%]  md:w-1/12 lg:text-sm xs:text-xs items-center bg-red-600 p-2 rounded-md text-white "> Go Home</Link>
       {filterPokemons.length > 0 ? (
         <div className="m-4">
           <div className="justify-between flex flex-row items-center">
-            <p className="float-right my-4 text-4xl font-extrabold">Results</p>
-            <p className="float-left text-2xl font-bold text-red-600">
-              Similar pokemons:{" "}
+            <p className="float-right my-4 lg:text-4xl xs:text-2xl font-extrabold">Results</p>
+            <p className="float-left lg:text-2xl xs:text-sm font-bold text-red-600">
+              Similar pokemons:{"  "}
               <span className="font-normal text-slate-900">
-                {filterPokemons.length}pc
+                 {filterPokemons.length}pc
               </span>
             </p>
           </div>
