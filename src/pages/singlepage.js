@@ -54,7 +54,7 @@ const Single = () => {
     </div>
     <div className="bg-white -mt-14 p-20 xs:px-10 shadow-single shadow-slate-200  text-start rounded-t-large ">
       <div className="lg:flex lg:items-start lg:justify-around    xs:mx-0 grid-cols-1 xs:grid-col-1">
-        <div className="about flex flex-col gap-6">
+        <div className="about flex flex-col gap-6 ">
           <h1 className="text-3xl font-bold pb-10">About</h1>
           <div className="flex gap-20 text-xl  xs:gap-14">
             <h4>Species</h4>
@@ -70,7 +70,7 @@ const Single = () => {
           </div>
           <div className="flex gap-20 text-xl xs:gap-14">
             <h4>Abilities</h4>
-            <div className="ability flex gap-1 xs:text-lg lg:text-xl">
+            <div className="ability flex gap-1 xs:text-lg lg:text-xl xs:flex-wrap">
               {pokemon?.abilities?.map((ability) => (
                 <h4 key={ability.ability.name} className="font-bold ">
                   {ability?.ability.name},
