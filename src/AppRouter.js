@@ -1,7 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import Home from "./pages/homepage";
 import Single from "./pages/singlepage";
-import NotFound from "./pages/notfound";
 import SearchPage from "./pages/searchpage";
 import Navigation from "./pages/navigation";
 

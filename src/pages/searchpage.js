@@ -32,8 +32,8 @@ const SearchPage = () => {
           </div>
         </div>
       ) : (
-        <div className="flex flex-col items-center justify-center my-20 gap-10  text-4xl text-red-600 font-bold">
-          <h1>Pokemon Not Found</h1>
+        <div className="flex flex-col items-center justify-center lg:my-20 xs:my-10 gap-10  lg:text-4xl xs:text-3xl text-red-600 font-bold">
+          <h1 >Pokemon Not Found</h1>
           <img className="w-60" src={IMG} alt="" />
         </div>
       )}
